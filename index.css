@@ -60,3 +60,81 @@
       margin-top: 3rem;
       font-size: 0.9rem;
     }
+    /* Seção de Feedbacks */
+section.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+section.bg-light h2 {
+  font-weight: 700;
+  color: #2575fc;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 3px rgba(37, 117, 252, 0.3);
+}
+
+section.bg-light .card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  background-color: white;
+}
+
+section.bg-light .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(37, 117, 252, 0.2);
+}
+
+section.bg-light .card p {
+  font-style: italic;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+section.bg-light .card h6 {
+  font-weight: 600;
+  color: #666;
+  text-align: right;
+}
+
+/* Rodapé */
+footer.bg-dark {
+  background-color: #1c2d5a; /* Tom um pouco mais escuro para contraste */
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer.bg-dark h5 {
+  color: #2575fc;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer.bg-dark p {
+  color: #d1d9f0;
+}
+
+footer.bg-dark ul {
+  padding-left: 0;
+}
+
+footer.bg-dark ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer.bg-dark ul li a {
+  color: #aabbff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer.bg-dark ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer.bg-dark hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
